@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "wow_armory"
+  s.name         = "WowArmory"
   s.version      = "0.0.1.LOCAL"
   s.summary      = "Library to access wow armory"
 
@@ -39,8 +39,8 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT"
-  #s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT (example)"
+  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
