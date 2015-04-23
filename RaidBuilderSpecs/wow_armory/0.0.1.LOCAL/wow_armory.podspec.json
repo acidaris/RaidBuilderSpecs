@@ -4,7 +4,7 @@
   "summary": "Library to access wow armory",
   "description": "                   A longer description of wow_armory in Markdown format.\n\n                   * Think: Why did you write this? What is the focus? What does it do?\n                   * CocoaPods will be using this to generate tags, and improve search results.\n                   * Try to keep it short, snappy and to the point.\n                   * Finally, don't worry about the indent, CocoaPods strips it!\n",
   "homepage": "https://github.com/acidaris/wow_armory_ios",
-  "license": "MIT (example)",
+  "license": "MIT",
   "authors": {
     "Adam Greenfield": "email@address.com"
   },
@@ -13,14 +13,14 @@
   },
   "source": {
     "git": "https://github.com/acidaris/wow_armory_ios.git",
-    "commit": "a11d5311726d2e7c8694007e7115e2acbcbeb964"
+    "tag": "v0.0.1.LOCAL"
   },
-  "source_files": "wow_armory/**/*.{h,m}",
-  "exclude_files": "wow_armory/Exclude",
-  "prefix_header_contents": [
-    "#import <MobileCoreServices/MobileCoreServices.h>",
-    "#import <SystemConfiguration/SystemConfiguration.h>"
+  "source_files": [
+    "wow_armory",
+    "wow_armory/**/*.{h,m}"
   ],
+  "exclude_files": "wow_armory/Exclude",
+  "prefix_header_contents": "    #ifdef __OBJC__\n      #import <Foundation/Foundation.h>\n      #import <SystemConfiguration/SystemConfiguration.h>\n      #import <MobileCoreServices/MobileCoreServices.h>\n    #endif\n",
   "ios": {
     "frameworks": [
       "MobileCoreServices",
