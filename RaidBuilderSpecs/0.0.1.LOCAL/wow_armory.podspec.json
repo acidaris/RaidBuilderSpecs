@@ -1,0 +1,41 @@
+{
+  "name": "wow_armory",
+  "version": "0.0.1.LOCAL",
+  "summary": "Library to access wow armory",
+  "description": "                   A longer description of wow_armory in Markdown format.\n\n                   * Think: Why did you write this? What is the focus? What does it do?\n                   * CocoaPods will be using this to generate tags, and improve search results.\n                   * Try to keep it short, snappy and to the point.\n                   * Finally, don't worry about the indent, CocoaPods strips it!\n",
+  "homepage": "https://github.com/acidaris/wow_armory_ios",
+  "license": "MIT (example)",
+  "authors": {
+    "Adam Greenfield": "email@address.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/acidaris/wow_armory_ios.git",
+    "commit": "a11d5311726d2e7c8694007e7115e2acbcbeb964"
+  },
+  "source_files": "wow_armory/**/*.{h,m}",
+  "exclude_files": "wow_armory/Exclude",
+  "prefix_header_contents": [
+    "#import <MobileCoreServices/MobileCoreServices.h>",
+    "#import <SystemConfiguration/SystemConfiguration.h>"
+  ],
+  "ios": {
+    "frameworks": [
+      "MobileCoreServices",
+      "SystemConfiguration"
+    ]
+  },
+  "dependencies": {
+    "RestKit": [
+      "~> 0.24.1"
+    ],
+    "GHUnitIOS": [
+      "0.5.5"
+    ],
+    "PromiseKit": [
+
+    ]
+  }
+}
